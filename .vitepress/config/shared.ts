@@ -35,7 +35,18 @@ export default defineConfig({
   ignoreDeadLinks: "localhostLinks",
 
   head: [
-      ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
+    ['meta', { name: 'theme-color', content: '#ffffff' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:locale', content: 'en' }],
+    ['meta', { property: 'og:title', content: 'Snipora' }],
+    ['meta', { property: 'og:site_name', content: 'Snipora' }],
+    ['meta', { property: 'og:image', content: 'https://snipora.github.io/og-image.png' }],
+    ['meta', { property: 'og:image:type', content: 'image/png' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    ['meta', { property: 'og:url', content: 'https://snipora.github.io/' }],
+    ['meta', { name: "google-site-verification", content: "s-RFUyj8uPAfBi5liG2lNJMYw9dg6QuM2EPSH7DDKgc" }],
   ],
 
   sitemap: {
