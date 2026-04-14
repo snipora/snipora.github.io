@@ -31,9 +31,9 @@ You already repeat yourself more than you think:
 - ::message-square-reply:: Copy-pasting email replies or support answers
 - ::scroll-text:: Losing useful text in your clipboard history
 
-## ::clipboard-clock:: Snipora keeps it simple
+## ::snipora:: Snipora keeps it simple
 
-Press a ::command:: shortcut. ::search:: Search. ::type-outline:: Insert. ::check:: Done.
+Press a ::command:: shortcut. ::search:: Search. ::type-outline:: Insert. ::check:: Done!
 
 - ::scan-search:: Open a global search popup from anywhere
 - ::square-dashed-text:: Find snippets instantly as you type
@@ -48,21 +48,21 @@ Press a ::command:: shortcut. ::search:: Search. ::type-outline:: Insert. ::chec
 
 ### ::bot:: Prompt reuse
 
-You wrote a prompt that works perfectly for your LLM, but saving and reusing it is annoying.
+You wrote a prompt that works perfectly for your LLM, but saving and reusing it is annoying?
 
-Store your best prompts in Snipora and access them instantly whenever you need them.
+Store your best prompts in Snipora and access them instantly whenever you need them!
 
 ### ::send:: Reusable responses
 
-You keep rewriting the same emails or support replies.
+You keep rewriting the same emails or support replies?
 
-Save them once and reuse them whenever needed.
+Save them once and reuse them whenever needed!
 
 ### ::clipboard-list:: Persistent clipboard
 
-You copied something useful, but only need it later or occasionally.
+You copied something useful, but only need it later or occasionally?
 
-Keep it in Snipora so it is always available.
+Keep it in Snipora so it is always available!
 
 ## ::tag:: Simple organization without folders
 
@@ -80,7 +80,7 @@ Managing snippets in files or note tools quickly becomes messy.
 
 </div>
 
-## Why Snipora ::snipora::
+## ::circle-question-mark:: Why Snipora
 
 - ::cloud-off:: Local-first
 - ::circle-user-round:: No account required
@@ -88,7 +88,7 @@ Managing snippets in files or note tools quickly becomes messy.
 - ::feather:: Lightweight and focused
 - ::code-xml:: Open source
 
-## Get started
+## ::monitor-down:: Get started
 
 Snipora is currently in early development. No official builds are available yet.
 
