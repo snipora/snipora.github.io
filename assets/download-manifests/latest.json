@@ -1,0 +1,58 @@
+{
+  "version": "0.1.0",
+  "tag": "v0.1.0",
+  "published": "2026-05-11T23:43:39+02:00",
+  "notesUrl": "https://github.com/snipora/snipora/releases/tag/v0.1.0",
+  "downloads": {
+    "windows": {
+      "x86_64": {
+        "nsis": {
+          "file": "snipora-v0.1.0-x86_64-setup.exe",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.1.0/snipora-v0.1.0-x86_64-setup.exe"
+        },
+        "msi": {
+          "file": "snipora-v0.1.0-x86_64.msi",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.1.0/snipora-v0.1.0-x86_64.msi"
+        }
+      }
+    },
+    "linux": {
+      "x86_64": {
+        "appimage": {
+          "file": "snipora-v0.1.0-x86_64.AppImage",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.1.0/snipora-v0.1.0-x86_64.AppImage"
+        },
+        "deb": {
+          "file": "snipora-v0.1.0-x86_64.deb",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.1.0/snipora-v0.1.0-x86_64.deb"
+        },
+        "rpm": {
+          "file": "snipora-v0.1.0-x86_64.rpm",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.1.0/snipora-v0.1.0-x86_64.rpm"
+        }
+      }
+    },
+    "macos": {
+      "x86_64": {
+        "dmg": {
+          "file": "snipora-v0.1.0-x86_64.dmg",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.1.0/snipora-v0.1.0-x86_64.dmg"
+        },
+        "app": {
+          "file": "snipora-v0.1.0-x86_64.app.tar.gz",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.1.0/snipora-v0.1.0-x86_64.app.tar.gz"
+        }
+      },
+      "arm64": {
+        "dmg": {
+          "file": "snipora-v0.1.0-arm64.dmg",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.1.0/snipora-v0.1.0-arm64.dmg"
+        },
+        "app": {
+          "file": "snipora-v0.1.0-arm64.app.tar.gz",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.1.0/snipora-v0.1.0-arm64.app.tar.gz"
+        }
+      }
+    }
+  }
+}
