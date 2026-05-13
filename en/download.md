@@ -29,13 +29,7 @@ onMounted(() => {
 
 ## ::package:: Download Snipora
 
-<div>
-  {{ JSON.stringify({ ua, os, arch }) }}
-</div>
 <ClientOnly>
-<div>
-  {{ JSON.stringify({ ua, os, arch }) }}
-</div>
 <div v-if="os === 'macos'">
 
 ::: warning
