@@ -1,6 +1,7 @@
 import {defineConfig} from "vitepress";
 import tailwindcss from "@tailwindcss/vite";
-import mditPluginIconify, {createIconRenderer, mditPluginIconifyPattern, parseAttrs} from "mdit-plugin-iconify";
+import mditPluginIconify, {createIconRenderer} from "mdit-plugin-iconify";
+import mditPluginBracketedSpans from "markdown-it-bracketed-spans";
 
 import { icons as lucideIcons } from "@iconify-json/lucide";
 import { icons as simpleIcons } from "@iconify-json/simple-icons";
@@ -12,13 +13,16 @@ const iconRenderer = createIconRenderer({
   },
   defaultCollection: "lucide",
   iconResolver(collection, name) {
-    if (collection === undefined && name === "empty") {
+    if (collection === undefined && name === "void") {
       return { body: ``, attributes: {} };
     }
     if (collection === undefined && name === "snipora") {
       return { body: `<g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 10 2 1h5v-2h-5z" /><path d="m15 16 2 1h5v-2h-5z" /><path d="m15 20v2h-13v-20h9l4 4" /><path d="m6 10h5" /><path d="m6 14h5" /><path d="m6 18h5" /></g>`, width: 24, height: 24, attributes: {} };
     }
-  },
+    if ((collection === undefined || collection === "lucide") && name === "sticky-note-plus") {
+      return { body: `<svg fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3v5a1 1 0 0 0 1 1h5" /><path d="M19 16v6" /><path d="M21 12.5V9a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 15 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.5" /><path d="M22 19h-6" /></svg>`, width: 24, height: 24, attributes: {} };
+    }
+  }
 });
 
 export default defineConfig({
@@ -71,6 +75,7 @@ export default defineConfig({
   markdown: {
     config(md) {
       md.use(mditPluginIconify, iconRenderer);
+      md.use(mditPluginBracketedSpans);
     },
     image: {
       lazyLoading: true,

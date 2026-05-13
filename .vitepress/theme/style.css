@@ -139,3 +139,11 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+
+/**
+ * Custom: Utility
+ * -------------------------------------------------------------------------- */
+
+.note {
+  @apply text-(--vp-c-text-3)
+}

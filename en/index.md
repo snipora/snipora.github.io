@@ -10,11 +10,14 @@ hero:
     alt: Snipora popup
   actions:
     - theme: brand
-      text: View on GitHub
-      link: https://github.com/snipora/snipora
-    - theme: alt
       text: Download
-      link: /download
+      link: download.md
+    - theme: alt
+      text: Getting Started
+      link: getting-started.md
+    - theme: alt
+      text: FAQ
+      link: faq.md
 ---
 
 <style>
@@ -90,10 +93,29 @@ Managing snippets in files or note tools quickly becomes messy.
 
 ## ::monitor-down:: Get started
 
-Snipora is currently in early development. No official builds are available yet.
+[::download:: Download Snipora](download.md) and start saving time today!
 
-- [::social/github:: github.com/snipora/snipora](https://github.com/snipora/snipora)
-- See the [::download:: download page](/download)
+> [!INFO]
+> New to Snipora? Check out the [Getting Started](getting-started.md) guide to learn the basics in 2 minutes.
+
+## ::heart::{.text-red-600} Support the Project
+
+Snipora is an open-source project built by an individual. Here's how you can help:
+
+- ::star::{.text-yellow-400} **Star the project** ::dot:: Show your support by starring [::snipora:: snipora/snipora](https://github.com/snipora/snipora) on ::social/github:: GitHub
+- ::message-square-text:: **Suggest improvements** ::dot:: Have an idea? Open a discussion on ::social/github:: GitHub
+- ::bug:: **Report issues** ::dot:: Found a bug? Let us know by opening an [::circle-dot:: Issue](https://github.com/snipora/snipora/issues)
+- ::git-pull-request:: **Contribute** ::dot:: Pull requests are welcome!
+
+## ::shield:: Why You Can Trust Snipora
+
+Snipora is designed with your privacy and security in mind:
+
+- ::wifi-off:: **No network permissions** ::dot:: Snipora works entirely offline. No data is sent to any server.
+- ::database:: **Local storage only** ::dot:: Your snippets are stored locally on your device
+- ::key:: **No account required** ::dot:: No login, no subscription, no tracking
+- ::eye:: **Open source** ::dot:: Review the source code yourself on GitHub
+- ::shield-check:: **Transparent development** ::dot:: All changes are visible in the [::gallery-vertical-end:: commit history](https://github.com/snipora/snipora/commits/main/)
 
 ---
 

@@ -13,9 +13,22 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     { text: "Home", link: "/" },
     { text: "Download", link: "/download" },
+    { text: "Getting Started", link: "/getting-started" },
+    { text: "FAQ", link: "/faq" },
   ];
 }
 
 function sidebar(): DefaultTheme.Sidebar {
-  return {};
+  return {
+    // "/": [
+    //   {
+    //     text: "Documentation",
+    //     items: [
+    //       { text: "Download", link: "/download" },
+    //       { text: "Getting Started", link: "/getting-started" },
+    //       { text: "FAQ", link: "/faq" },
+    //     ],
+    //   },
+    // ],
+  };
 }
