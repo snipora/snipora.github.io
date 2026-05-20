@@ -30,10 +30,18 @@ onMounted(() => {
 ## ::package:: Download Snipora
 
 <ClientOnly>
+<div v-if="os === 'windows'">
+
+::: warning
+::social/windows:: Windows support is currently provided on a best-effort basis.
+:::
+
+</div>
+
 <div v-if="os === 'macos'">
 
 ::: warning
-::social/apple:: macOS support is currently provided on a best-effort basis and may receive less testing than Windows or Linux releases.
+::social/apple:: macOS support is currently provided on a best-effort basis.
 :::
 
 </div>
