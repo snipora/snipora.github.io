@@ -16,7 +16,7 @@ Think of it as a clipboard that remembers everything you save.
 - ::bot:: AI prompts [::dot:: instructions, personas, writing styles]{.note}
 - ::reply-all:: Email replies or support answers [::dot:: FAQ, canned replies]{.note}
 - ::at-sign:: Email signatures [::dot:: professional, casual, contact info]{.note}
-- ::code-xml:: Code blocks [::dot:: files templates, build scripts, utility types]{.note}
+- ::code-xml:: Code blocks [::dot:: file templates, build scripts, utility types]{.note}
 - ::square-terminal:: Command-line commands [::dot:: git commands, docker runs, build scripts]{.note}
 
 ## ::hard-drive-download:: Installing Snipora
