@@ -44,7 +44,7 @@ Press a ::command:: shortcut. ::search:: Search. ::type-outline:: Insert. ::chec
 
 <div class="grid place-items-center">
 
-![Popup Window](assets/popup-cropped.png){.rounded-xl}
+![Popup Window](../assets/screenshots/popup-window.png){.rounded-xl}
 </div>
 
 ## ::user:: Use cases
@@ -77,9 +77,9 @@ Managing snippets in files or note tools quickly becomes messy.
 
 <div class="grid md:grid-cols-2 place-items-center">
 
-![Tag-based organization](assets/sidebar.png){.rounded-lg}
+![Tag-based organization](../assets/screenshots/sidebar.png){.rounded-lg}
 
-![Tag-based organization](assets/tag-sample.png){.rounded-lg}
+![Tag-based organization](../assets/screenshots/tag-sample.png){.rounded-lg}
 
 </div>
 
@@ -121,5 +121,5 @@ Snipora is designed with your privacy and security in mind:
 
 <div class="grid place-items-center">
 
-![Management Window](assets/main-window.png){.rounded-lg}
+![Management Window](../assets/screenshots/main-window.png){.rounded-lg}
 </div>
