@@ -17,7 +17,7 @@ const iconRenderer = createIconRenderer({
       return { body: ``, attributes: {} };
     }
     if (collection === undefined && name === "snipora") {
-      return { body: `<g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 10 2 1h5v-2h-5z" /><path d="m15 16 2 1h5v-2h-5z" /><path d="m15 20v2h-13v-20h9l4 4" /><path d="m6 10h5" /><path d="m6 14h5" /><path d="m6 18h5" /></g>`, width: 24, height: 24, attributes: {} };
+      return { body: `<g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m14.7 5.7-2.286-2.286A4.83 4.83 0 0 0 9 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h9a2 2 0 0 0 1.952-1.564" /><path d="m15 10 2 1h5V9h-5z" /><path d="m15 16 2 1h5v-2h-5z" /><path d="M6 10h5" /><path d="M6 14h5" /><path d="M6 18h5" /></g>`, width: 24, height: 24, attributes: {} };
     }
   }
 });
