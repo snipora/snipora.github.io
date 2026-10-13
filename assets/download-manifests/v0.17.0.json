@@ -1,0 +1,58 @@
+{
+  "version": "0.17.0",
+  "tag": "v0.17.0",
+  "publishedAt": "2026-10-13T12:19:43Z",
+  "notesUrl": "https://github.com/snipora/snipora/releases/tag/v0.17.0",
+  "downloads": {
+    "windows": {
+      "x86_64": {
+        "nsis": {
+          "file": "snipora-0.17.0-x86_64-setup.exe",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-x86_64-setup.exe"
+        },
+        "msi": {
+          "file": "snipora-0.17.0-x86_64.msi",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-x86_64.msi"
+        }
+      }
+    },
+    "linux": {
+      "x86_64": {
+        "appimage": {
+          "file": "snipora-0.17.0-x86_64.AppImage",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-x86_64.AppImage"
+        },
+        "deb": {
+          "file": "snipora-0.17.0-x86_64.deb",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-x86_64.deb"
+        },
+        "rpm": {
+          "file": "snipora-0.17.0-x86_64.rpm",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-x86_64.rpm"
+        }
+      }
+    },
+    "macos": {
+      "x86_64": {
+        "dmg": {
+          "file": "snipora-0.17.0-x86_64.dmg",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-x86_64.dmg"
+        },
+        "app": {
+          "file": "snipora-0.17.0-x86_64.app.tar.gz",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-x86_64.app.tar.gz"
+        }
+      },
+      "arm64": {
+        "dmg": {
+          "file": "snipora-0.17.0-arm64.dmg",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-arm64.dmg"
+        },
+        "app": {
+          "file": "snipora-0.17.0-arm64.app.tar.gz",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-arm64.app.tar.gz"
+        }
+      }
+    }
+  }
+}
