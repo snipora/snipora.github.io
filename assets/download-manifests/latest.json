@@ -1,56 +1,56 @@
 {
-  "version": "0.17.0",
-  "tag": "v0.17.0",
-  "publishedAt": "2026-10-13T12:19:43Z",
-  "notesUrl": "https://github.com/snipora/snipora/releases/tag/v0.17.0",
+  "version": "0.17.1",
+  "tag": "v0.17.1",
+  "publishedAt": "2026-10-16T10:17:10Z",
+  "notesUrl": "https://github.com/snipora/snipora/releases/tag/v0.17.1",
   "downloads": {
     "windows": {
       "x86_64": {
         "nsis": {
-          "file": "snipora-0.17.0-x86_64-setup.exe",
-          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-x86_64-setup.exe"
+          "file": "snipora-0.17.1-x86_64-setup.exe",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.1/snipora-0.17.1-x86_64-setup.exe"
         },
         "msi": {
-          "file": "snipora-0.17.0-x86_64.msi",
-          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-x86_64.msi"
+          "file": "snipora-0.17.1-x86_64.msi",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.1/snipora-0.17.1-x86_64.msi"
         }
       }
     },
     "linux": {
       "x86_64": {
         "appimage": {
-          "file": "snipora-0.17.0-x86_64.AppImage",
-          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-x86_64.AppImage"
+          "file": "snipora-0.17.1-x86_64.AppImage",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.1/snipora-0.17.1-x86_64.AppImage"
         },
         "deb": {
-          "file": "snipora-0.17.0-x86_64.deb",
-          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-x86_64.deb"
+          "file": "snipora-0.17.1-x86_64.deb",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.1/snipora-0.17.1-x86_64.deb"
         },
         "rpm": {
-          "file": "snipora-0.17.0-x86_64.rpm",
-          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-x86_64.rpm"
+          "file": "snipora-0.17.1-x86_64.rpm",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.1/snipora-0.17.1-x86_64.rpm"
         }
       }
     },
     "macos": {
       "x86_64": {
         "dmg": {
-          "file": "snipora-0.17.0-x86_64.dmg",
-          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-x86_64.dmg"
+          "file": "snipora-0.17.1-x86_64.dmg",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.1/snipora-0.17.1-x86_64.dmg"
         },
         "app": {
-          "file": "snipora-0.17.0-x86_64.app.tar.gz",
-          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-x86_64.app.tar.gz"
+          "file": "snipora-0.17.1-x86_64.app.tar.gz",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.1/snipora-0.17.1-x86_64.app.tar.gz"
         }
       },
       "arm64": {
         "dmg": {
-          "file": "snipora-0.17.0-arm64.dmg",
-          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-arm64.dmg"
+          "file": "snipora-0.17.1-arm64.dmg",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.1/snipora-0.17.1-arm64.dmg"
         },
         "app": {
-          "file": "snipora-0.17.0-arm64.app.tar.gz",
-          "url": "https://github.com/snipora/snipora/releases/download/v0.17.0/snipora-0.17.0-arm64.app.tar.gz"
+          "file": "snipora-0.17.1-arm64.app.tar.gz",
+          "url": "https://github.com/snipora/snipora/releases/download/v0.17.1/snipora-0.17.1-arm64.app.tar.gz"
         }
       }
     }
